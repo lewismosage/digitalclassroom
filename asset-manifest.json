@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/start/static/css/main.70252089.css",
-    "main.js": "/start/static/js/main.211811bf.js",
+    "main.js": "/start/static/js/main.86ce65fe.js",
     "static/media/bachelorofAppliedArtsandScience.png": "/start/static/media/bachelorofAppliedArtsandScience.2059f7a6ef519ddc06d5.png",
     "static/media/MasterofBusinessAdministration1.png": "/start/static/media/MasterofBusinessAdministration1.36e1d0e0487a094d1c37.png",
     "static/media/computationThinking.png": "/start/static/media/computationThinking.a39af2dcae5f4ddb10b0.png",
@@ -103,10 +103,10 @@
     "static/media/InteractionDesign.jpg": "/start/static/media/InteractionDesign.e01361a80ca4e16849a1.jpg",
     "index.html": "/start/index.html",
     "main.70252089.css.map": "/start/static/css/main.70252089.css.map",
-    "main.211811bf.js.map": "/start/static/js/main.211811bf.js.map"
+    "main.86ce65fe.js.map": "/start/static/js/main.86ce65fe.js.map"
   },
   "entrypoints": [
     "static/css/main.70252089.css",
-    "static/js/main.211811bf.js"
+    "static/js/main.86ce65fe.js"
   ]
 }
