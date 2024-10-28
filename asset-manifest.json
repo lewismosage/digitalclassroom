@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/digitalclassroom/static/css/main.70252089.css",
-    "main.js": "/digitalclassroom/static/js/main.1188e923.js",
+    "main.css": "/digitalclassroom/static/css/main.8c5eea75.css",
+    "main.js": "/digitalclassroom/static/js/main.745c25c7.js",
     "static/media/bachelorofAppliedArtsandScience.png": "/digitalclassroom/static/media/bachelorofAppliedArtsandScience.2059f7a6ef519ddc06d5.png",
     "static/media/MasterofBusinessAdministration1.png": "/digitalclassroom/static/media/MasterofBusinessAdministration1.36e1d0e0487a094d1c37.png",
     "static/media/computationThinking.png": "/digitalclassroom/static/media/computationThinking.a39af2dcae5f4ddb10b0.png",
@@ -102,11 +102,11 @@
     "static/media/AIForBusiness.png": "/digitalclassroom/static/media/AIForBusiness.6d44efe0913c66c936ab.png",
     "static/media/InteractionDesign.jpg": "/digitalclassroom/static/media/InteractionDesign.e01361a80ca4e16849a1.jpg",
     "index.html": "/digitalclassroom/index.html",
-    "main.70252089.css.map": "/digitalclassroom/static/css/main.70252089.css.map",
-    "main.1188e923.js.map": "/digitalclassroom/static/js/main.1188e923.js.map"
+    "main.8c5eea75.css.map": "/digitalclassroom/static/css/main.8c5eea75.css.map",
+    "main.745c25c7.js.map": "/digitalclassroom/static/js/main.745c25c7.js.map"
   },
   "entrypoints": [
-    "static/css/main.70252089.css",
-    "static/js/main.1188e923.js"
+    "static/css/main.8c5eea75.css",
+    "static/js/main.745c25c7.js"
   ]
 }
