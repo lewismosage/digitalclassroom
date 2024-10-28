@@ -1,0 +1,81 @@
+/* src/components/Dashboard.css */
+
+body {
+  color: #d1d5db;
+  font-family: Arial, sans-serif;
+}
+
+.dashboard-container {
+  display: flex;
+}
+
+.sidebar {
+  width: 250px;
+  padding: 20px;
+  background-color: #2d2f30;
+  color: #d1d5db;
+}
+
+.profile-pic {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.navigation a {
+  display: block;
+  padding: 10px 0;
+  color: #d1d5db;
+  text-decoration: none;
+}
+
+.logout-button {
+  width: 100%;
+  padding: 10px;
+  background-color: #ff4757;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.main-content {
+  flex: 1;
+  padding: 20px;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.dashboard-cards {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.card {
+  background-color: #333638;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.progress-circle {
+  background-color: #181a1b;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5em;
+  color: #00cc66;
+}
+
+.course-item, .event-item, .resource-item {
+  background-color: #3b3f41;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 5px;
+}

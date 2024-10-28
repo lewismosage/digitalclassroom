@@ -1,0 +1,150 @@
+/* Main Career Page Container */
+.career-page {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  padding: 20px;
+  
+  color: white;
+  overflow-y: auto; 
+}
+
+/* Header */
+.career-header {
+  margin-bottom: 20px;
+}
+
+.career-header h1 {
+  font-size: 1.5rem;
+}
+
+.career-header p {
+  font-size: 1rem;
+  color: #a1a1a6;
+}
+
+/* Career Categories */
+.career-categories {
+  flex-grow: 1;
+}
+
+.career-category {
+  margin-bottom: 20px;
+}
+
+.career-category h2 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.career-job-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.job-button {
+  background-color: #2c2c2e;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.job-button:hover {
+  background-color: #3a3a3c;
+}
+
+/* Bottom Navigation */
+.bottom-nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #2c2c2e;
+  padding: 15px 0;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.nav-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #8e8e93;
+}
+
+.nav-item.active {
+  color: white;
+}
+
+.nav-item span {
+  font-size: 1.5rem;
+}
+
+.nav-item p {
+  margin: 0;
+  font-size: 0.75rem;
+}
+
+
+/* Modal Overlay */
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+/* Modal Content */
+.modal-content {
+  background-color: rgb(105, 105, 234);
+  padding: 20px;
+  border-radius: 10px;
+  width: 300px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.close-button {
+  margin-top: 10px;
+  padding: 5px 10px;
+  background-color: #f44336;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.close-button:hover {
+  background-color: #d32f2f;
+}
+
+/* Modal Header */
+.modal-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Arrow Button */
+.arrow-button {
+  background: rgb(56, 56, 164);
+  border: white;
+  border-color: white;
+  font-size: 1.5rem;
+  cursor: pointer;
+  color: white;
+  margin-left: 10px;
+  border-radius: 3px;
+  width: 34px;
+}
+

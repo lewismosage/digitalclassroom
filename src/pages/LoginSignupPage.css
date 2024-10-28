@@ -1,0 +1,181 @@
+/* LoginSignupPage.css */
+.login-container {
+  width: 100%;
+  max-width: 350px;
+  margin: 0 auto;
+  padding: 10px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.header .digital-classroom-logo h1 {
+  color: #007bff;
+  text-align: center;
+}
+
+.header .digital-classroom-logo p {
+  text-align: center;
+  color: #555;
+}
+
+.auth-options h2 {
+  text-align: center;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.auth-options p {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #888;
+}
+
+/* Email login section */
+.email-login {
+  display: flex;
+  flex-direction: column;
+}
+
+.email-login label {
+  margin-bottom: 5px;
+  color: #333;
+}
+
+.email-login input {
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.login-extras {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.login-extras .remember-me {
+  display: flex;
+  align-items: center;
+}
+
+.login-extras .remember-me input {
+  margin-right: 5px;
+}
+
+.login-extras .forgot-password {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.auth-button.login {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.auth-button.login:hover {
+  background-color: #0056b3;
+}
+
+/* Separator */
+.separator {
+  text-align: center;
+  margin: 20px 0;
+  position: relative;
+  color: black;
+}
+
+.separator::before,
+.separator::after {
+  content: '';
+  display: inline-block;
+  width: 45%;
+  height: 1px;
+  background-color: black;
+  position: relative;
+  vertical-align: middle;
+}
+
+.separator::before {
+  right: 10px;
+}
+
+.separator::after {
+  left: 10px;
+}
+
+/* Google, Facebook, SSO Buttons */
+.auth-button {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.auth-button.google {
+  background-color: #db4437;
+  color: white;
+}
+
+.auth-button.google:hover {
+  background-color: #c33f31;
+}
+
+.auth-button.facebook {
+  background-color: #4267b2;
+  color: white;
+}
+
+.auth-button.facebook:hover {
+  background-color: #365899;
+}
+
+.auth-button.sso {
+  background-color: #007bff;
+  color: white;
+}
+
+.auth-button.sso:hover {
+  background-color: #0056b3;
+}
+
+.signup-button {
+  width: 100%;
+  padding: 10px;
+  background-color: transparent;
+  color: #007bff;
+  border: 2px solid #007bff;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.signup-button:hover {
+  background-color: #007bff;
+  color: white;
+}
+
+.error-message {
+  color: red;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.terms {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 12px;
+}
+
+.terms a {
+  color: #007bff;
+  text-decoration: none;
+}

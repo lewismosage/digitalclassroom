@@ -1,0 +1,78 @@
+/* styles.css */
+.app-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: space-between;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  background-color: #333;
+  padding: 0px 0; 
+  position: fixed;
+  bottom: 0;
+  left: 0; 
+  right: 0; 
+  width: 100%;
+  margin: 0; 
+  box-sizing: border-box; 
+}
+
+.navbar a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  text-decoration: none;
+  padding: 3px;
+}
+
+.nav-icon {
+  width: 24px; 
+  height: 24px;
+  border-radius: 50%; 
+  margin-bottom: 5px; 
+  opacity: 0.6;
+}
+
+.search-bar {
+  padding: 5px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+.profile {
+  color: white;
+  cursor: pointer;
+}
+
+.pages {
+  padding: 20px;
+  padding-bottom: 60px;
+}
+
+/* New hover effect */
+.navbar a:hover {
+  color: blue; /* Change text color to blue on hover */
+}
+
+.navbar a:focus {
+  color: blue; /* Ensure the selected item stays blue */
+}
+
+.navbar a .nav-icon {
+  width: 24px; 
+  height: 24px;
+  border-radius: 50%; 
+  margin-bottom: 5px; 
+  opacity: 0.6;
+  transition: filter 0.3s ease; /* Smooth transition for filter */
+}
+
+/* Hover effect on image */
+.navbar a:hover .nav-icon {
+  filter: hue-rotate(180deg); /* Changes the hue to give a blue-ish tint */
+  opacity: 1; /* Reset opacity to fully visible */
+}
